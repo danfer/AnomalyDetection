@@ -1,5 +1,6 @@
 ﻿using Microsoft.ML;
 using NetworkTraffic.Common;
+using NetworkTraffic.ML.Objects;
 using System;
 using System.Collections.Generic;
 using System.IO;
