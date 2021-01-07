@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NetworkTraffic": {
+      "commandName": "Project",
+      "commandLineArgs": "predict ..\\..\\..\\Data\\testdata.csv"
+    }
+  }
+}

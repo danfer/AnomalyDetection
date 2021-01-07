@@ -24,6 +24,8 @@ namespace NetworkTraffic.ML
             }
             var trainingDataView = GetDataView(trainingFileName);
 
+            // SSA: Singular Spectrum Analysis
+            // Create SsaSpikeEstimator, which predicts spikes in time series using Singular Spectrum Analysis (SSA).
             var trainingPipeLine = MlContext.Transforms.DetectSpikeBySsa(
                 nameof(NetworkTrafficPrediction.Prediction),
                 nameof(NetworkTrafficHistory.BytesTransferred),
