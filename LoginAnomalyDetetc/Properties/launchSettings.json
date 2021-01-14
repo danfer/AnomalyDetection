@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LoginAnomalyDetetc": {
+      "commandName": "Project",
+      "commandLineArgs": "predict ..\\..\\..\\Data\\input.json"
+    }
+  }
+}
